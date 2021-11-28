@@ -101,5 +101,17 @@ CREATE TABLE login (
   login_time TIMESTAMP NOT NULL DEFAULT NOW(),
   logout_time TIMESTAMP,
   FOREIGN KEY(user_id) REFERENCES users(user_id)
-)
+);
 
+CREATE TABLE notifications (
+  noti_id INTEGER NOT NULL,
+  notify_by INTEGER NOT NULL,
+  notify_to INTEGER NOT NULL,
+  post_id INTEGER NOT NULL,
+  comment_id INTEGER NOT NULL,
+  time TIMESTAMP NOT NULL,
+  status enum('read','unread') NOT NULL DEFAULT 'unread',
+  FOREIGN KEY(post_id) REFERENCES post(post_id),
+  FOREIGN KEY(comment_id) REFERENCES comments(comment_id),
+  FOREIGN KEY(notify_to) REFERENCES users(user_id)
+)

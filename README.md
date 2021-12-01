@@ -12,6 +12,6 @@
 
 # Our Team 👩‍💻👨‍💻
 [Kanav Phull]()<br>
-<a href="https://github.com/RAJGUPTA28)>[Raj Gupta]</a>
+[Raj Gupta]() <br>
 [Sahib Singh]()<br>
 [Sakshi Warandani]()

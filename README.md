@@ -9,9 +9,8 @@
 <li>With our true efforts and research  we have tried to give a simple and more exact view of a basic social interconnecting site. </li>
 </ul>
 
-
 # Our Team 👩‍💻👨‍💻
-[Kanav Phull]()<br>
-[Raj Gupta]() <br>
-[Sahib Singh]()<br>
-[Sakshi Warandani]()
+[Kanav Phull](https://github.com/kanavphull)<br>
+[Raj Gupta](https://github.com/RAJGUPTA28)<br>
+[Sahib Singh](https://github.com/ssahibsingh)<br>
+[Sakshi Warandani](https://github.com/Sa960)

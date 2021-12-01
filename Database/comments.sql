@@ -184,3 +184,20 @@ INSERT INTO COMMENTS(comment_text ,photo_id,user_id) VALUES ('Impressive picture
 INSERT INTO COMMENTS(comment_text ,photo_id,user_id) VALUES ('AAGT LGADI BHAI MAJA AA GYA ',78,39);
 INSERT INTO COMMENTS(comment_text ,photo_id,user_id) VALUES ('Adorable picture and Your smile makes me Happy.',42,30);
 INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('such a nice cute humbke kind gentke face',1,1);
+ INSERT INTO COMMENTS(comment_text ,photo_id,user_id) VALUES ('Looking Gorgeous and This picture made my day. ' 61,1);
+ INSERT INTO COMMENTS(comment_text ,photo_id,user_id) VALUES ('Never seen a selfie of yours that I don't like. ' 29,48);
+ INSERT INTO COMMENTS(comment_text ,photo_id,user_id) VALUES ('You are the coolest. ' 97,27);
+ INSERT INTO COMMENTS(comment_text ,photo_id,user_id) VALUES ('You are the coolest. ' 69,19);
+ INSERT INTO COMMENTS(comment_text ,photo_id,user_id) VALUES ('You are the coolest. ' 25,15);
+ INSERT INTO COMMENTS(comment_text ,photo_id,user_id) VALUES ('You are the coolest. ' 66,23);
+ INSERT INTO COMMENTS(comment_text ,photo_id,user_id) VALUES ('Friends forever. ' 6,5);
+ INSERT INTO COMMENTS(comment_text ,photo_id,user_id) VALUES ('They say love is beautiful, but I say friendship is better. ' 13,9);
+ INSERT INTO COMMENTS(comment_text ,photo_id,user_id) VALUES ('AAGT LGADI BHAI MAJA AA GYA  ' 26,32);
+ INSERT INTO COMMENTS(comment_text ,photo_id,user_id) VALUES ('Impressive picture. ' 72,39);
+ INSERT INTO COMMENTS(comment_text ,photo_id,user_id) VALUES ('MSRJAA AJJJRJKLFDSA ' 23,31);
+ INSERT INTO COMMENTS(comment_text ,photo_id,user_id) VALUES ('COOL PIC ' 58,4);
+ INSERT INTO COMMENTS(comment_text ,photo_id,user_id) VALUES ('You are the coolest. ' 68,34);
+ INSERT INTO COMMENTS(comment_text ,photo_id,user_id) VALUES ('xing of public record ' 93,48);
+ INSERT INTO COMMENTS(comment_text ,photo_id,user_id) VALUES ('GREAT JOB ' 10,6);
+ INSERT INTO COMMENTS(comment_text ,photo_id,user_id) VALUES ('GOOOD DAY !!!!!!!!!!!!!!!!!!!! ' 98,46);
+

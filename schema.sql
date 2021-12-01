@@ -11,36 +11,43 @@ CREATE TABLE users (
     created_at TIMESTAMP DEFAULT NOW()
 );
 
+CREATE TABLE photos (
+    photo_id INTEGER AUTO_INCREMENT PRIMARY KEY,
+    photo_url VARCHAR(255) NOT NULL,
+    post_id	INTEGER NOT NULL,
+    created_at TIMESTAMP DEFAULT NOW(),
+    size FLOAT CHECK (size<5)
+);
+
+CREATE TABLE videos (
+  video_id INTEGER AUTO_INCREMENT PRIMARY KEY,
+  video_url VARCHAR(255) NOT NULL,
+  post_id INTEGER NOT NULL,
+  created_at TIMESTAMP DEFAULT NOW(),
+  size FLOAT CHECK (size<10)
+  
+);
+
 CREATE TABLE post (
 	post_id INTEGER AUTO_INCREMENT PRIMARY KEY,
-    photo_id INTEGER NOT NULL,
+    photo_id INTEGER,
+    video_id INTEGER,
     user_id INTEGER NOT NULL,
     caption VARCHAR(200), 
     location VARCHAR(50) ,
     created_at TIMESTAMP DEFAULT NOW(),
-    FOREIGN KEY(user_id) REFERENCES users(user_id)
+    FOREIGN KEY(user_id) REFERENCES users(user_id),
+	FOREIGN KEY(photo_id) REFERENCES photos(photo_id),
+    FOREIGN KEY(video_id) REFERENCES videos(video_id)
 );
-
-CREATE TABLE photos (
-    photo_id INTEGER AUTO_INCREMENT PRIMARY KEY,
-    photo_url VARCHAR(255) NOT NULL,
-    user_id INTEGER NOT NULL,
-    created_at TIMESTAMP DEFAULT NOW(),
-    size FLOAT CHECK (size<5),
-    FOREIGN KEY(user_id) REFERENCES users(user_id)    
-);
-
-ALTER TABLE post
-ADD FOREIGN KEY(photo_id) REFERENCES photos(photo_id);
-
 
 CREATE TABLE comments (
     comment_id INTEGER AUTO_INCREMENT PRIMARY KEY,
     comment_text VARCHAR(255) NOT NULL,
-    photo_id INTEGER NOT NULL,
+    post_id INTEGER NOT NULL,
     user_id INTEGER NOT NULL,
     created_at TIMESTAMP DEFAULT NOW(),
-    FOREIGN KEY(photo_id) REFERENCES photos(photo_id),
+    FOREIGN KEY(post_id) REFERENCES post(post_id),
     FOREIGN KEY(user_id) REFERENCES users(user_id)
 );
 
@@ -77,6 +84,15 @@ CREATE TABLE hashtags (
   created_at TIMESTAMP DEFAULT NOW()
 );
 
+CREATE TABLE hashtag_follow (
+	user_id INTEGER NOT NULL,
+    hashtag_id INTEGER NOT NULL,
+    created_at TIMESTAMP DEFAULT NOW(),
+    FOREIGN KEY(user_id) REFERENCES users(user_id),
+    FOREIGN KEY(hashtag_id) REFERENCES hashtags(hashtag_id),
+    PRIMARY KEY(user_id, hashtag_id)
+);
+
 CREATE TABLE post_tags (
     post_id INTEGER NOT NULL,
     hashtag_id INTEGER NOT NULL,
@@ -102,16 +118,3 @@ CREATE TABLE login (
   logout_time TIMESTAMP,
   FOREIGN KEY(user_id) REFERENCES users(user_id)
 );
-
-CREATE TABLE notifications (
-  noti_id INTEGER NOT NULL,
-  notify_by INTEGER NOT NULL,
-  notify_to INTEGER NOT NULL,
-  post_id INTEGER NOT NULL,
-  comment_id INTEGER NOT NULL,
-  time TIMESTAMP NOT NULL,
-  status enum('read','unread') NOT NULL DEFAULT 'unread',
-  FOREIGN KEY(post_id) REFERENCES post(post_id),
-  FOREIGN KEY(comment_id) REFERENCES comments(comment_id),
-  FOREIGN KEY(notify_to) REFERENCES users(user_id)
-)

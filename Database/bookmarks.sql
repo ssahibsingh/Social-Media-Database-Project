@@ -1,4 +1,4 @@
--- bookmarks Databse
+#NAME?
 
 INSERT INTO bookmarks(post_id, user_id) VALUE (8, 6);
 INSERT INTO bookmarks(post_id, user_id) VALUE (92, 40);
@@ -77,7 +77,6 @@ INSERT INTO bookmarks(post_id, user_id) VALUE (99, 14);
 INSERT INTO bookmarks(post_id, user_id) VALUE (80, 7);
 INSERT INTO bookmarks(post_id, user_id) VALUE (26, 12);
 INSERT INTO bookmarks(post_id, user_id) VALUE (95, 4);
-INSERT INTO bookmarks(post_id, user_id) VALUE (92, 40);
 INSERT INTO bookmarks(post_id, user_id) VALUE (42, 46);
 INSERT INTO bookmarks(post_id, user_id) VALUE (85, 10);
 INSERT INTO bookmarks(post_id, user_id) VALUE (56, 7);
@@ -111,7 +110,6 @@ INSERT INTO bookmarks(post_id, user_id) VALUE (78, 39);
 INSERT INTO bookmarks(post_id, user_id) VALUE (45, 9);
 INSERT INTO bookmarks(post_id, user_id) VALUE (14, 37);
 INSERT INTO bookmarks(post_id, user_id) VALUE (72, 47);
-INSERT INTO bookmarks(post_id, user_id) VALUE (58, 50);
 INSERT INTO bookmarks(post_id, user_id) VALUE (56, 33);
 INSERT INTO bookmarks(post_id, user_id) VALUE (12, 35);
 INSERT INTO bookmarks(post_id, user_id) VALUE (61, 12);
@@ -130,7 +128,6 @@ INSERT INTO bookmarks(post_id, user_id) VALUE (45, 37);
 INSERT INTO bookmarks(post_id, user_id) VALUE (25, 3);
 INSERT INTO bookmarks(post_id, user_id) VALUE (65, 35);
 INSERT INTO bookmarks(post_id, user_id) VALUE (58, 30);
-INSERT INTO bookmarks(post_id, user_id) VALUE (1, 8);
 INSERT INTO bookmarks(post_id, user_id) VALUE (72, 43);
 INSERT INTO bookmarks(post_id, user_id) VALUE (71, 42);
 INSERT INTO bookmarks(post_id, user_id) VALUE (66, 3);
@@ -159,7 +156,6 @@ INSERT INTO bookmarks(post_id, user_id) VALUE (24, 43);
 INSERT INTO bookmarks(post_id, user_id) VALUE (38, 50);
 INSERT INTO bookmarks(post_id, user_id) VALUE (77, 10);
 INSERT INTO bookmarks(post_id, user_id) VALUE (76, 49);
-INSERT INTO bookmarks(post_id, user_id) VALUE (56, 12);
 INSERT INTO bookmarks(post_id, user_id) VALUE (88, 46);
 INSERT INTO bookmarks(post_id, user_id) VALUE (69, 2);
 INSERT INTO bookmarks(post_id, user_id) VALUE (26, 42);
@@ -174,7 +170,6 @@ INSERT INTO bookmarks(post_id, user_id) VALUE (99, 10);
 INSERT INTO bookmarks(post_id, user_id) VALUE (51, 34);
 INSERT INTO bookmarks(post_id, user_id) VALUE (71, 27);
 INSERT INTO bookmarks(post_id, user_id) VALUE (9, 23);
-INSERT INTO bookmarks(post_id, user_id) VALUE (90, 31);
 INSERT INTO bookmarks(post_id, user_id) VALUE (16, 40);
 INSERT INTO bookmarks(post_id, user_id) VALUE (86, 19);
 INSERT INTO bookmarks(post_id, user_id) VALUE (26, 3);

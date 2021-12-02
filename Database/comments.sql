@@ -138,10 +138,10 @@ INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('Looking Gorgeous .'
 INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('This picture made my day.',59,45);
 INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('Your beauty has no boundaries.',3,12);
 INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('My word can’t describe your beauty!!',67,22);
-INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('Your eyes sparkle like something I've never seen before.',27,8);
+INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ("Your eyes sparkle like something I've never seen before.",27,8);
 INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('Handsome hunk',35,15);
 INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('That beard tho (if you go in for details)',86,50);
-INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('That's dope',69,39);
+INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ("That's dope",69,39);
 INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('Nailed it',62,48);
 INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('My squad',69,19);
 INSERT INTO COMMENTS(comment_text ,post_id,user_id) VALUES ('High af',67,11);

@@ -6,14 +6,14 @@ USE social_media;
 CREATE TABLE users (
     user_id INTEGER AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(255) UNIQUE NOT NULL,
-    profile_photo_url VARCHAR(255) DEFAULT 'socialmedia.smdb/ppu',
+    profile_photo_url VARCHAR(255) DEFAULT 'https://picsum.photos/100',
     bio VARCHAR(255),
     created_at TIMESTAMP DEFAULT NOW()
 );
 
 CREATE TABLE photos (
     photo_id INTEGER AUTO_INCREMENT PRIMARY KEY,
-    photo_url VARCHAR(255) NOT NULL,
+    photo_url VARCHAR(255) NOT NULL UNIQUE,
     post_id	INTEGER NOT NULL,
     created_at TIMESTAMP DEFAULT NOW(),
     size FLOAT CHECK (size<5)
@@ -21,7 +21,7 @@ CREATE TABLE photos (
 
 CREATE TABLE videos (
   video_id INTEGER AUTO_INCREMENT PRIMARY KEY,
-  video_url VARCHAR(255) NOT NULL,
+  video_url VARCHAR(255) NOT NULL UNIQUE,
   post_id INTEGER NOT NULL,
   created_at TIMESTAMP DEFAULT NOW(),
   size FLOAT CHECK (size<10)
@@ -115,6 +115,5 @@ CREATE TABLE login (
   user_id INTEGER NOT NULL,
   ip VARCHAR(50) NOT NULL,
   login_time TIMESTAMP NOT NULL DEFAULT NOW(),
-  logout_time TIMESTAMP,
   FOREIGN KEY(user_id) REFERENCES users(user_id)
 );

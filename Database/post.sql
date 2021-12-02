@@ -1,4 +1,6 @@
 -- post_database
+
+
 insert into post (post_id,photo_id,video_id,user_id,caption,location) values
 (1,15,3,24,'HEY!!','VHA JHA KOI AATA JAATA NI'),
 (2,21,47,28,'Live a good story.','The Red Fort, Delhi.'),

@@ -40,6 +40,11 @@ ORDER BY COUNT(post_likes.post_id) DESC ;
 SELECT ROUND((COUNT(post_id) / COUNT(DISTINCT user_id) ),2)AS 'Average Post per User' 
 FROM post;
 
+-- no. of login by peruser
+SELECT user_id,email,username,login.login_id AS login_number
+FROM users 
+NATURAL JOIN login;
+
 
 -- User who liked every single post
 SELECT username, Count(*) AS num_likes 

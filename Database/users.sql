@@ -4,7 +4,7 @@ INSERT INTO users(username, profile_photo_url, bio,email) VALUES
 ("kanavphull","https://pbs.twimg.com/profile_images/1386885117428191232/70SyHOxP_400x400.jpg","Hedonist yet Spiritual || IT at NITJ 2024",'as1mobiles@gmail.com'),
 ('raj gupta' , '/klsadf893724:f//432' , 'soon to be updated','admin@1shopbuy.com'),
 ('Sahib Singh' , 'https://pbs.twimg.com/profile_images/1465003815820693506/gbTJoe66_400x400.jpg' ,"Life is a journey, It drives you MAD.|| IT NITJ'24",'12angeldesignworld@gmail.com'),
-('Sakshi Warandani' , "" , "NITJ wish me on 23 jan",'deepak@24sevenindia.com'),
+('Sakshi Warandani' , "https://vader.news/__export/1612817390103/sites/gadgets/img/2021/02/08/ian_somerhalder_vampires.jpg_246448593.jpg" , "NITJ wish me on 23 jan",'deepak@24sevenindia.com'),
 ("chhaprinibba", "/sdfvsdf", "Heart Stealer",'101cartinfo@gmail.com'),
 ("dettol sharma", "/sdfvsdf", "Dettol Stealer",'the.yellow.gold@gmail.com'),
 ('sunil' , '/yisadf324//' , 'hotel manageemnt ','deepak@24sevenindia.com'),

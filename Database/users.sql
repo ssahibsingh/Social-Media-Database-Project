@@ -5,7 +5,7 @@ INSERT INTO users(username, profile_photo_url, bio,email) VALUES
 ('raj gupta' , '/klsadf893724:f//432' , 'soon to be updated','admin@1shopbuy.com'),
 ('Sahib Singh' , 'https://pbs.twimg.com/profile_images/1465003815820693506/gbTJoe66_400x400.jpg' ,"Life is a journey, It drives you MAD.|| IT NITJ'24",'12angeldesignworld@gmail.com'),
 ('Sakshi Warandani' , "https://vader.news/__export/1612817390103/sites/gadgets/img/2021/02/08/ian_somerhalder_vampires.jpg_246448593.jpg" , "NITJ wish me on 23 jan",'deepak@24sevenindia.com'),
-("chhaprinibba", "/sdfvsdf", "Heart Stealer",'101cartinfo@gmail.com'),
+("Omnicron Larson", "/sdfvsdf", "Heart Stealer",'101cartinfo@gmail.com'),
 ("dettol sharma", "/sdfvsdf", "Dettol Stealer",'the.yellow.gold@gmail.com'),
 ('sunil' , '/yisadf324//' , 'hotel manageemnt ','deepak@24sevenindia.com'),
 ('sanjay' , '/fduiahj43' , 'football lover','deepak@24sevenindia.com' ),

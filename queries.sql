@@ -92,3 +92,4 @@ WHERE comment_text REGEXP'good|beautiful';
 -- 
 SELECT caption, LENGTH(post.caption) AS caption_length FROM post
 ORDER BY caption_length DESC LIMIT 1;
+

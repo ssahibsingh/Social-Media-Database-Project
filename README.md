@@ -9,6 +9,12 @@
 <li>With our true efforts and research  we have tried to give a simple and more exact view of a basic social interconnecting site.</li>
 </ul>
 
+# Components
+* [Schema](https://github.com/ssahibsingh/Social-Media-Database-Project/blob/9c3312aaf59acdce09fe6f4857e96b371fa58b40/schema.sql)
+* [Database](https://github.com/ssahibsingh/Social-Media-Database-Project/blob/9c3312aaf59acdce09fe6f4857e96b371fa58b40/table_database.sql)
+* [ER Diagram](https://github.com/ssahibsingh/Social-Media-Database-Project/blob/9c3312aaf59acdce09fe6f4857e96b371fa58b40/ER%20Diagram.png)
+* [Sample Queries](https://github.com/ssahibsingh/Social-Media-Database-Project/blob/9c3312aaf59acdce09fe6f4857e96b371fa58b40/queries.sql)
+
 
 # Our Team 👩‍💻👨‍💻
 [Kanav Phull](https://github.com/kanavphull)<br>

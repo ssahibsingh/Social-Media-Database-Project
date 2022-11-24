@@ -21,3 +21,13 @@
 [Raj Gupta](https://github.com/RAJGUPTA28)<br>
 [Sahib Singh](https://github.com/ssahibsingh)<br>
 [Sakshi Warandani](https://github.com/Sa960)
+
+## Contributing
+
+Contributions are always welcome!
+Just raise an issue, we will discuss it.
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at snone181@gmail.com
